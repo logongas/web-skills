@@ -1,0 +1,3034 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  display: block;
+  height: 3px;
+  border: 0;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 16px;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+.l-fotter {
+  width: 100%;
+  position: relative;
+}
+.l-fotter-column {
+  margin-bottom: 0px;
+}
+
+.l-masonry {
+  width: 100%;
+  max-width: 1728px;
+  margin-top: 20px;
+  align-items: center;
+}
+.l-masonry:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.l-masonry__area {
+  width: 350px;
+  float: left;
+}
+
+.l-2-columnas {
+  display: grid;
+  justify-items: center;
+  margin-top: 30px;
+  grid-template-areas: "lateral-izquierdo lateral-derecho";
+}
+.l-2-columnas__lateral-izquierdo {
+  grid-area: lateral-izquierdo;
+}
+.l-2-columnas__lateral-derecho {
+  grid-area: lateral-derecho;
+}
+
+.l-flex {
+  display: flex;
+}
+.l-flex--direction-column {
+  flex-direction: column;
+}
+.l-flex--center {
+  justify-content: center;
+}
+.l-flex--end {
+  justify-content: end;
+}
+.l-flex--initial {
+  justify-content: initial;
+}
+.l-flex--space-around {
+  justify-content: space-around;
+}
+.l-flex--space-between {
+  justify-content: space-between;
+}
+.l-flex__aling-items--center {
+  align-items: center;
+}
+.l-flex--direction-row {
+  flex-direction: row;
+}
+.l-flex--wrap {
+  flex-wrap: wrap;
+}
+.l-flex .l-flex__area--grow-1 {
+  flex-grow: 1;
+}
+.l-flex .l-flex__area--grow-2 {
+  flex-grow: 2;
+}
+.l-flex .l-flex__area--grow-3 {
+  flex-grow: 3;
+}
+.l-flex .l-flex__area--grow-4 {
+  flex-grow: 4;
+}
+.l-flex .l-flex__area--grow-5 {
+  flex-grow: 5;
+}
+.l-flex .l-flex__area--grow-6 {
+  flex-grow: 6;
+}
+.l-flex .l-flex__area--grow-7 {
+  flex-grow: 7;
+}
+.l-flex .l-flex__area--grow-8 {
+  flex-grow: 8;
+}
+.l-flex .l-flex__area--grow-9 {
+  flex-grow: 9;
+}
+.l-flex__area--auto {
+  flex: 1 1 auto;
+}
+
+.c-especialidad {
+  background-color: #FFFFFF;
+  margin: 12px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+}
+.c-especialidad__img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100px;
+}
+.c-especialidad__content {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.c-especialidad__familia {
+  border-top: 1px solid #F0F0F0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.4;
+}
+.c-especialidad__modalidad {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  line-height: 1.4;
+}
+
+.c-header-bar {
+  flex-direction: row;
+  box-shadow: 0px 11px 10px -13px rgba(0, 0, 0, 0.67);
+  background-color: white;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  max-width: 1728px;
+}
+.c-header-bar__item {
+  margin-left: 50px;
+}
+.c-header-bar__item--rigth {
+  margin-left: auto;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.c-button {
+  cursor: pointer;
+  border: 1px solid #FD6B1C;
+  background-color: #FD6B1C;
+  color: white;
+  padding: 14px;
+  width: 100%;
+}
+.c-button--secudary {
+  background-color: white;
+  color: #FD6B1C;
+}
+.c-button--tertiary {
+  background-color: transparent;
+  color: #FD6B1C;
+  border: none;
+}
+.c-button--tertiary-alt {
+  background-color: transparent;
+  color: #0082E6;
+  border: none;
+}
+.c-button--alternative {
+  margin-left: 0px;
+  background-color: #0082E6;
+  border-color: #0082E6;
+  color: white;
+}
+.c-button--dangerous {
+  background-color: #c53030;
+  border-color: #c53030;
+  color: white;
+}
+
+.c-card {
+  height: 800px;
+  width: 100%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url("./assets/img/portada.jpg");
+  position: relative;
+  z-index: 1;
+}
+.c-card__content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 50px;
+}
+
+.c-img {
+  display: block;
+  width: 100%;
+}
+
+.c-pretitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 8px;
+  color: black;
+}
+
+.c-panel {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  max-width: 1728px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.c-panel--alternative {
+  background-color: #011419;
+}
+.c-panel__content {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.c-panel__content--grid {
+  top: 20%;
+  position: absolute;
+  width: 100%;
+  display: grid;
+}
+.c-panel__left {
+  max-width: 580px;
+  margin-bottom: 30px;
+}
+.c-panel__right {
+  max-width: 580px;
+  margin-bottom: 30px;
+}
+.c-panel__button {
+  width: 150px;
+}
+.c-panel__img {
+  display: block;
+  width: 100%;
+}
+
+.c-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  color: black;
+}
+
+.c-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 40px;
+}
+
+.c-title {
+  width: 100%;
+}
+
+.g--width-80 {
+  width: 80px;
+}
+.g--width-100 {
+  width: 100px;
+}
+
+.g--back-gradient {
+  background: linear-gradient(90deg, #0073BD, #65A8FB);
+  width: 156px;
+  margin-left: 0;
+  margin-bottom: 24px;
+}
+
+.g--redondeado {
+  border-radius: 6px;
+}
+.g--redondeado--pie {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.g--sombreado {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.62);
+}
+
+.g--back-color-principal-1 {
+  background-color: #320A01;
+}
+
+.g--back-color-principal-2 {
+  background-color: #691A02;
+}
+
+.g--back-color-principal-3 {
+  background-color: #A62E03;
+}
+
+.g--back-color-principal-4 {
+  background-color: #DE4802;
+}
+
+.g--back-color-principal-5 {
+  background-color: #FD6B1C;
+}
+
+.g--back-color-principal-6 {
+  background-color: #FD9753;
+}
+
+.g--back-color-principal-7 {
+  background-color: #FDC090;
+}
+
+.g--back-color-principal-8 {
+  background-color: #FEE2C8;
+}
+
+.g--back-color-principal-9 {
+  background-color: #FFFFFF;
+}
+
+.g--back-color-alternative-1 {
+  background-color: #011419;
+}
+
+.g--back-color-alternative-2 {
+  background-color: #013041;
+}
+
+.g--back-color-alternative-3 {
+  background-color: #014B6B;
+}
+
+.g--back-color-alternative-4 {
+  background-color: #006094;
+}
+
+.g--back-color-alternative-5 {
+  background-color: #0073BD;
+}
+
+.g--back-color-alternative-6 {
+  background-color: #0082E6;
+}
+
+.g--back-color-alternative-7 {
+  background-color: #108FFE;
+}
+
+.g--back-color-alternative-8 {
+  background-color: #3B98FC;
+}
+
+.g--back-color-alternative-9 {
+  background-color: #65A8FB;
+}
+
+.g--back-color-black-1 {
+  background-color: rgba(0, 0, 0, 0.605);
+}
+
+.g--back-color-red-1 {
+  background-color: #190501;
+}
+
+.g--back-color-red-2 {
+  background-color: #400E07;
+}
+
+.g--back-color-red-3 {
+  background-color: #621A13;
+}
+
+.g--back-color-red-4 {
+  background-color: #832421;
+}
+
+.g--back-color-red-5 {
+  background-color: #A52C2C;
+}
+
+.g--back-color-red-6 {
+  background-color: #CC3B33;
+}
+
+.g--back-color-red-7 {
+  background-color: #DC5C50;
+}
+
+.g--back-color-red-8 {
+  background-color: #EE7E6D;
+}
+
+.g--back-color-red-9 {
+  background-color: #FC9F8D;
+}
+
+.g--back-color-grey-1 {
+  background-color: #0D0D0D;
+}
+
+.g--back-color-grey-2 {
+  background-color: #292929;
+}
+
+.g--back-color-grey-3 {
+  background-color: #474747;
+}
+
+.g--back-color-grey-4 {
+  background-color: #636363;
+}
+
+.g--back-color-grey-5 {
+  background-color: #5E5E5E;
+}
+
+.g--back-color-grey-6 {
+  background-color: #808080;
+}
+
+.g--back-color-grey-7 {
+  background-color: #9C9C9C;
+}
+
+.g--back-color-grey-8 {
+  background-color: #BABABA;
+}
+
+.g--back-color-grey-9 {
+  background-color: #D6D6D6;
+}
+
+.g--back-color-grey-10 {
+  background-color: #F2F2F2;
+}
+
+.g--back-color-green-1 {
+  background-color: #021901;
+}
+
+.g--back-color-green-2 {
+  background-color: #0A470A;
+}
+
+.g--back-color-green-3 {
+  background-color: #1C731F;
+}
+
+.g--back-color-green-4 {
+  background-color: #2F9838;
+}
+
+.g--back-color-green-5 {
+  background-color: #40BF4F;
+}
+
+.g--back-color-green-6 {
+  background-color: #67D078;
+}
+
+.g--back-color-green-7 {
+  background-color: #90E4A1;
+}
+
+.g--back-color-green-8 {
+  background-color: #B8F5C7;
+}
+
+.g--back-color-green-9 {
+  background-color: #E6FEED;
+}
+
+.g--back-color-white-1 {
+  background-color: #B9CAFD;
+}
+
+.g--back-color-white-2 {
+  background-color: #CCD4F5;
+}
+
+.g--back-color-white-3 {
+  background-color: #D9DDF2;
+}
+
+.g--back-color-white-4 {
+  background-color: #E0E2F1;
+}
+
+.g--back-color-white-5 {
+  background-color: #E7E8F3;
+}
+
+.g--back-color-white-6 {
+  background-color: #EEEEF7;
+}
+
+.g--back-color-white-7 {
+  background-color: #F4F4FB;
+}
+
+.g--back-color-white-8 {
+  background-color: #E0E0E0;
+}
+
+.g--back-color-white-9 {
+  background-color: #F7F6FD;
+}
+
+.g--color-principal-1 {
+  color: #320A01;
+}
+
+.g--color-principal-2 {
+  color: #691A02;
+}
+
+.g--color-principal-3 {
+  color: #A62E03;
+}
+
+.g--color-principal-4 {
+  color: #DE4802;
+}
+
+.g--color-principal-5 {
+  color: #FD6B1C;
+}
+
+.g--color-principal-6 {
+  color: #FD9753;
+}
+
+.g--color-principal-7 {
+  color: #FDC090;
+}
+
+.g--color-principal-8 {
+  color: #FEE2C8;
+}
+
+.g--color-principal-9 {
+  color: #FFFFFF;
+}
+
+.g--color-alternative-1 {
+  color: #011419;
+}
+
+.g--color-alternative-2 {
+  color: #013041;
+}
+
+.g--color-alternative-3 {
+  color: #014B6B;
+}
+
+.g--color-alternative-4 {
+  color: #006094;
+}
+
+.g--color-alternative-5 {
+  color: #0073BD;
+}
+
+.g--color-alternative-6 {
+  color: #0082E6;
+}
+
+.g--color-alternative-7 {
+  color: #108FFE;
+}
+
+.g--color-alternative-8 {
+  color: #3B98FC;
+}
+
+.g--color-alternative-9 {
+  color: #65A8FB;
+}
+
+.g--color-black-1 {
+  color: rgba(0, 0, 0, 0.605);
+}
+
+.g--color-red-1 {
+  color: #190501;
+}
+
+.g--color-red-2 {
+  color: #400E07;
+}
+
+.g--color-red-3 {
+  color: #621A13;
+}
+
+.g--color-red-4 {
+  color: #832421;
+}
+
+.g--color-red-5 {
+  color: #A52C2C;
+}
+
+.g--color-red-6 {
+  color: #CC3B33;
+}
+
+.g--color-red-7 {
+  color: #DC5C50;
+}
+
+.g--color-red-8 {
+  color: #EE7E6D;
+}
+
+.g--color-red-9 {
+  color: #FC9F8D;
+}
+
+.g--color-grey-1 {
+  color: #0D0D0D;
+}
+
+.g--color-grey-2 {
+  color: #292929;
+}
+
+.g--color-grey-3 {
+  color: #474747;
+}
+
+.g--color-grey-4 {
+  color: #636363;
+}
+
+.g--color-grey-5 {
+  color: #5E5E5E;
+}
+
+.g--color-grey-6 {
+  color: #808080;
+}
+
+.g--color-grey-7 {
+  color: #9C9C9C;
+}
+
+.g--color-grey-8 {
+  color: #BABABA;
+}
+
+.g--color-grey-9 {
+  color: #D6D6D6;
+}
+
+.g--color-grey-10 {
+  color: #F2F2F2;
+}
+
+.g--color-green-1 {
+  color: #021901;
+}
+
+.g--color-green-2 {
+  color: #0A470A;
+}
+
+.g--color-green-3 {
+  color: #1C731F;
+}
+
+.g--color-green-4 {
+  color: #2F9838;
+}
+
+.g--color-green-5 {
+  color: #40BF4F;
+}
+
+.g--color-green-6 {
+  color: #67D078;
+}
+
+.g--color-green-7 {
+  color: #90E4A1;
+}
+
+.g--color-green-8 {
+  color: #B8F5C7;
+}
+
+.g--color-green-9 {
+  color: #E6FEED;
+}
+
+.g--color-white-1 {
+  color: #B9CAFD;
+}
+
+.g--color-white-2 {
+  color: #CCD4F5;
+}
+
+.g--color-white-3 {
+  color: #D9DDF2;
+}
+
+.g--color-white-4 {
+  color: #E0E2F1;
+}
+
+.g--color-white-5 {
+  color: #E7E8F3;
+}
+
+.g--color-white-6 {
+  color: #EEEEF7;
+}
+
+.g--color-white-7 {
+  color: #F4F4FB;
+}
+
+.g--color-white-8 {
+  color: #E0E0E0;
+}
+
+.g--color-white-9 {
+  color: #F7F6FD;
+}
+
+.g--padding-0 {
+  padding: 0px;
+}
+
+.g--padding-left-0 {
+  padding-left: 0px;
+}
+
+.g--padding-right-0 {
+  padding-right: 0px;
+}
+
+.g--padding-top-0 {
+  padding-top: 0px;
+}
+
+.g--padding-bottom-0 {
+  padding-bottom: 0px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-0\@movil {
+    padding: 0px;
+  }
+
+  .g--padding-left-0\@movil {
+    padding-left: 0px;
+  }
+
+  .g--padding-right-0\@movil {
+    padding-right: 0px;
+  }
+
+  .g--padding-top-0\@movil {
+    padding-top: 0px;
+  }
+
+  .g--padding-bottom-0\@movil {
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-0\@tablet {
+    padding: 0px;
+  }
+
+  .g--padding-left-0\@tablet {
+    padding-left: 0px;
+  }
+
+  .g--padding-right-0\@tablet {
+    padding-right: 0px;
+  }
+
+  .g--padding-top-0\@tablet {
+    padding-top: 0px;
+  }
+
+  .g--padding-bottom-0\@tablet {
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-0\@desktop {
+    padding: 0px;
+  }
+
+  .g--padding-left-0\@desktop {
+    padding-left: 0px;
+  }
+
+  .g--padding-right-0\@desktop {
+    padding-right: 0px;
+  }
+
+  .g--padding-top-0\@desktop {
+    padding-top: 0px;
+  }
+
+  .g--padding-bottom-0\@desktop {
+    padding-bottom: 0px;
+  }
+}
+.g--padding-1 {
+  padding: 4px;
+}
+
+.g--padding-left-1 {
+  padding-left: 4px;
+}
+
+.g--padding-right-1 {
+  padding-right: 4px;
+}
+
+.g--padding-top-1 {
+  padding-top: 4px;
+}
+
+.g--padding-bottom-1 {
+  padding-bottom: 4px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-1\@movil {
+    padding: 4px;
+  }
+
+  .g--padding-left-1\@movil {
+    padding-left: 4px;
+  }
+
+  .g--padding-right-1\@movil {
+    padding-right: 4px;
+  }
+
+  .g--padding-top-1\@movil {
+    padding-top: 4px;
+  }
+
+  .g--padding-bottom-1\@movil {
+    padding-bottom: 4px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-1\@tablet {
+    padding: 4px;
+  }
+
+  .g--padding-left-1\@tablet {
+    padding-left: 4px;
+  }
+
+  .g--padding-right-1\@tablet {
+    padding-right: 4px;
+  }
+
+  .g--padding-top-1\@tablet {
+    padding-top: 4px;
+  }
+
+  .g--padding-bottom-1\@tablet {
+    padding-bottom: 4px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-1\@desktop {
+    padding: 4px;
+  }
+
+  .g--padding-left-1\@desktop {
+    padding-left: 4px;
+  }
+
+  .g--padding-right-1\@desktop {
+    padding-right: 4px;
+  }
+
+  .g--padding-top-1\@desktop {
+    padding-top: 4px;
+  }
+
+  .g--padding-bottom-1\@desktop {
+    padding-bottom: 4px;
+  }
+}
+.g--padding-2 {
+  padding: 8px;
+}
+
+.g--padding-left-2 {
+  padding-left: 8px;
+}
+
+.g--padding-right-2 {
+  padding-right: 8px;
+}
+
+.g--padding-top-2 {
+  padding-top: 8px;
+}
+
+.g--padding-bottom-2 {
+  padding-bottom: 8px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-2\@movil {
+    padding: 8px;
+  }
+
+  .g--padding-left-2\@movil {
+    padding-left: 8px;
+  }
+
+  .g--padding-right-2\@movil {
+    padding-right: 8px;
+  }
+
+  .g--padding-top-2\@movil {
+    padding-top: 8px;
+  }
+
+  .g--padding-bottom-2\@movil {
+    padding-bottom: 8px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-2\@tablet {
+    padding: 8px;
+  }
+
+  .g--padding-left-2\@tablet {
+    padding-left: 8px;
+  }
+
+  .g--padding-right-2\@tablet {
+    padding-right: 8px;
+  }
+
+  .g--padding-top-2\@tablet {
+    padding-top: 8px;
+  }
+
+  .g--padding-bottom-2\@tablet {
+    padding-bottom: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-2\@desktop {
+    padding: 8px;
+  }
+
+  .g--padding-left-2\@desktop {
+    padding-left: 8px;
+  }
+
+  .g--padding-right-2\@desktop {
+    padding-right: 8px;
+  }
+
+  .g--padding-top-2\@desktop {
+    padding-top: 8px;
+  }
+
+  .g--padding-bottom-2\@desktop {
+    padding-bottom: 8px;
+  }
+}
+.g--padding-3 {
+  padding: 12px;
+}
+
+.g--padding-left-3 {
+  padding-left: 12px;
+}
+
+.g--padding-right-3 {
+  padding-right: 12px;
+}
+
+.g--padding-top-3 {
+  padding-top: 12px;
+}
+
+.g--padding-bottom-3 {
+  padding-bottom: 12px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-3\@movil {
+    padding: 12px;
+  }
+
+  .g--padding-left-3\@movil {
+    padding-left: 12px;
+  }
+
+  .g--padding-right-3\@movil {
+    padding-right: 12px;
+  }
+
+  .g--padding-top-3\@movil {
+    padding-top: 12px;
+  }
+
+  .g--padding-bottom-3\@movil {
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-3\@tablet {
+    padding: 12px;
+  }
+
+  .g--padding-left-3\@tablet {
+    padding-left: 12px;
+  }
+
+  .g--padding-right-3\@tablet {
+    padding-right: 12px;
+  }
+
+  .g--padding-top-3\@tablet {
+    padding-top: 12px;
+  }
+
+  .g--padding-bottom-3\@tablet {
+    padding-bottom: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-3\@desktop {
+    padding: 12px;
+  }
+
+  .g--padding-left-3\@desktop {
+    padding-left: 12px;
+  }
+
+  .g--padding-right-3\@desktop {
+    padding-right: 12px;
+  }
+
+  .g--padding-top-3\@desktop {
+    padding-top: 12px;
+  }
+
+  .g--padding-bottom-3\@desktop {
+    padding-bottom: 12px;
+  }
+}
+.g--padding-4 {
+  padding: 16px;
+}
+
+.g--padding-left-4 {
+  padding-left: 16px;
+}
+
+.g--padding-right-4 {
+  padding-right: 16px;
+}
+
+.g--padding-top-4 {
+  padding-top: 16px;
+}
+
+.g--padding-bottom-4 {
+  padding-bottom: 16px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-4\@movil {
+    padding: 16px;
+  }
+
+  .g--padding-left-4\@movil {
+    padding-left: 16px;
+  }
+
+  .g--padding-right-4\@movil {
+    padding-right: 16px;
+  }
+
+  .g--padding-top-4\@movil {
+    padding-top: 16px;
+  }
+
+  .g--padding-bottom-4\@movil {
+    padding-bottom: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-4\@tablet {
+    padding: 16px;
+  }
+
+  .g--padding-left-4\@tablet {
+    padding-left: 16px;
+  }
+
+  .g--padding-right-4\@tablet {
+    padding-right: 16px;
+  }
+
+  .g--padding-top-4\@tablet {
+    padding-top: 16px;
+  }
+
+  .g--padding-bottom-4\@tablet {
+    padding-bottom: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-4\@desktop {
+    padding: 16px;
+  }
+
+  .g--padding-left-4\@desktop {
+    padding-left: 16px;
+  }
+
+  .g--padding-right-4\@desktop {
+    padding-right: 16px;
+  }
+
+  .g--padding-top-4\@desktop {
+    padding-top: 16px;
+  }
+
+  .g--padding-bottom-4\@desktop {
+    padding-bottom: 16px;
+  }
+}
+.g--padding-5 {
+  padding: 20px;
+}
+
+.g--padding-left-5 {
+  padding-left: 20px;
+}
+
+.g--padding-right-5 {
+  padding-right: 20px;
+}
+
+.g--padding-top-5 {
+  padding-top: 20px;
+}
+
+.g--padding-bottom-5 {
+  padding-bottom: 20px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-5\@movil {
+    padding: 20px;
+  }
+
+  .g--padding-left-5\@movil {
+    padding-left: 20px;
+  }
+
+  .g--padding-right-5\@movil {
+    padding-right: 20px;
+  }
+
+  .g--padding-top-5\@movil {
+    padding-top: 20px;
+  }
+
+  .g--padding-bottom-5\@movil {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-5\@tablet {
+    padding: 20px;
+  }
+
+  .g--padding-left-5\@tablet {
+    padding-left: 20px;
+  }
+
+  .g--padding-right-5\@tablet {
+    padding-right: 20px;
+  }
+
+  .g--padding-top-5\@tablet {
+    padding-top: 20px;
+  }
+
+  .g--padding-bottom-5\@tablet {
+    padding-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-5\@desktop {
+    padding: 20px;
+  }
+
+  .g--padding-left-5\@desktop {
+    padding-left: 20px;
+  }
+
+  .g--padding-right-5\@desktop {
+    padding-right: 20px;
+  }
+
+  .g--padding-top-5\@desktop {
+    padding-top: 20px;
+  }
+
+  .g--padding-bottom-5\@desktop {
+    padding-bottom: 20px;
+  }
+}
+.g--padding-6 {
+  padding: 24px;
+}
+
+.g--padding-left-6 {
+  padding-left: 24px;
+}
+
+.g--padding-right-6 {
+  padding-right: 24px;
+}
+
+.g--padding-top-6 {
+  padding-top: 24px;
+}
+
+.g--padding-bottom-6 {
+  padding-bottom: 24px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-6\@movil {
+    padding: 24px;
+  }
+
+  .g--padding-left-6\@movil {
+    padding-left: 24px;
+  }
+
+  .g--padding-right-6\@movil {
+    padding-right: 24px;
+  }
+
+  .g--padding-top-6\@movil {
+    padding-top: 24px;
+  }
+
+  .g--padding-bottom-6\@movil {
+    padding-bottom: 24px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-6\@tablet {
+    padding: 24px;
+  }
+
+  .g--padding-left-6\@tablet {
+    padding-left: 24px;
+  }
+
+  .g--padding-right-6\@tablet {
+    padding-right: 24px;
+  }
+
+  .g--padding-top-6\@tablet {
+    padding-top: 24px;
+  }
+
+  .g--padding-bottom-6\@tablet {
+    padding-bottom: 24px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-6\@desktop {
+    padding: 24px;
+  }
+
+  .g--padding-left-6\@desktop {
+    padding-left: 24px;
+  }
+
+  .g--padding-right-6\@desktop {
+    padding-right: 24px;
+  }
+
+  .g--padding-top-6\@desktop {
+    padding-top: 24px;
+  }
+
+  .g--padding-bottom-6\@desktop {
+    padding-bottom: 24px;
+  }
+}
+.g--padding-7 {
+  padding: 32px;
+}
+
+.g--padding-left-7 {
+  padding-left: 32px;
+}
+
+.g--padding-right-7 {
+  padding-right: 32px;
+}
+
+.g--padding-top-7 {
+  padding-top: 32px;
+}
+
+.g--padding-bottom-7 {
+  padding-bottom: 32px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-7\@movil {
+    padding: 32px;
+  }
+
+  .g--padding-left-7\@movil {
+    padding-left: 32px;
+  }
+
+  .g--padding-right-7\@movil {
+    padding-right: 32px;
+  }
+
+  .g--padding-top-7\@movil {
+    padding-top: 32px;
+  }
+
+  .g--padding-bottom-7\@movil {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-7\@tablet {
+    padding: 32px;
+  }
+
+  .g--padding-left-7\@tablet {
+    padding-left: 32px;
+  }
+
+  .g--padding-right-7\@tablet {
+    padding-right: 32px;
+  }
+
+  .g--padding-top-7\@tablet {
+    padding-top: 32px;
+  }
+
+  .g--padding-bottom-7\@tablet {
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-7\@desktop {
+    padding: 32px;
+  }
+
+  .g--padding-left-7\@desktop {
+    padding-left: 32px;
+  }
+
+  .g--padding-right-7\@desktop {
+    padding-right: 32px;
+  }
+
+  .g--padding-top-7\@desktop {
+    padding-top: 32px;
+  }
+
+  .g--padding-bottom-7\@desktop {
+    padding-bottom: 32px;
+  }
+}
+.g--padding-8 {
+  padding: 40px;
+}
+
+.g--padding-left-8 {
+  padding-left: 40px;
+}
+
+.g--padding-right-8 {
+  padding-right: 40px;
+}
+
+.g--padding-top-8 {
+  padding-top: 40px;
+}
+
+.g--padding-bottom-8 {
+  padding-bottom: 40px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-8\@movil {
+    padding: 40px;
+  }
+
+  .g--padding-left-8\@movil {
+    padding-left: 40px;
+  }
+
+  .g--padding-right-8\@movil {
+    padding-right: 40px;
+  }
+
+  .g--padding-top-8\@movil {
+    padding-top: 40px;
+  }
+
+  .g--padding-bottom-8\@movil {
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-8\@tablet {
+    padding: 40px;
+  }
+
+  .g--padding-left-8\@tablet {
+    padding-left: 40px;
+  }
+
+  .g--padding-right-8\@tablet {
+    padding-right: 40px;
+  }
+
+  .g--padding-top-8\@tablet {
+    padding-top: 40px;
+  }
+
+  .g--padding-bottom-8\@tablet {
+    padding-bottom: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-8\@desktop {
+    padding: 40px;
+  }
+
+  .g--padding-left-8\@desktop {
+    padding-left: 40px;
+  }
+
+  .g--padding-right-8\@desktop {
+    padding-right: 40px;
+  }
+
+  .g--padding-top-8\@desktop {
+    padding-top: 40px;
+  }
+
+  .g--padding-bottom-8\@desktop {
+    padding-bottom: 40px;
+  }
+}
+.g--padding-9 {
+  padding: 48px;
+}
+
+.g--padding-left-9 {
+  padding-left: 48px;
+}
+
+.g--padding-right-9 {
+  padding-right: 48px;
+}
+
+.g--padding-top-9 {
+  padding-top: 48px;
+}
+
+.g--padding-bottom-9 {
+  padding-bottom: 48px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-9\@movil {
+    padding: 48px;
+  }
+
+  .g--padding-left-9\@movil {
+    padding-left: 48px;
+  }
+
+  .g--padding-right-9\@movil {
+    padding-right: 48px;
+  }
+
+  .g--padding-top-9\@movil {
+    padding-top: 48px;
+  }
+
+  .g--padding-bottom-9\@movil {
+    padding-bottom: 48px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-9\@tablet {
+    padding: 48px;
+  }
+
+  .g--padding-left-9\@tablet {
+    padding-left: 48px;
+  }
+
+  .g--padding-right-9\@tablet {
+    padding-right: 48px;
+  }
+
+  .g--padding-top-9\@tablet {
+    padding-top: 48px;
+  }
+
+  .g--padding-bottom-9\@tablet {
+    padding-bottom: 48px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-9\@desktop {
+    padding: 48px;
+  }
+
+  .g--padding-left-9\@desktop {
+    padding-left: 48px;
+  }
+
+  .g--padding-right-9\@desktop {
+    padding-right: 48px;
+  }
+
+  .g--padding-top-9\@desktop {
+    padding-top: 48px;
+  }
+
+  .g--padding-bottom-9\@desktop {
+    padding-bottom: 48px;
+  }
+}
+.g--padding-10 {
+  padding: 64px;
+}
+
+.g--padding-left-10 {
+  padding-left: 64px;
+}
+
+.g--padding-right-10 {
+  padding-right: 64px;
+}
+
+.g--padding-top-10 {
+  padding-top: 64px;
+}
+
+.g--padding-bottom-10 {
+  padding-bottom: 64px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-10\@movil {
+    padding: 64px;
+  }
+
+  .g--padding-left-10\@movil {
+    padding-left: 64px;
+  }
+
+  .g--padding-right-10\@movil {
+    padding-right: 64px;
+  }
+
+  .g--padding-top-10\@movil {
+    padding-top: 64px;
+  }
+
+  .g--padding-bottom-10\@movil {
+    padding-bottom: 64px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-10\@tablet {
+    padding: 64px;
+  }
+
+  .g--padding-left-10\@tablet {
+    padding-left: 64px;
+  }
+
+  .g--padding-right-10\@tablet {
+    padding-right: 64px;
+  }
+
+  .g--padding-top-10\@tablet {
+    padding-top: 64px;
+  }
+
+  .g--padding-bottom-10\@tablet {
+    padding-bottom: 64px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-10\@desktop {
+    padding: 64px;
+  }
+
+  .g--padding-left-10\@desktop {
+    padding-left: 64px;
+  }
+
+  .g--padding-right-10\@desktop {
+    padding-right: 64px;
+  }
+
+  .g--padding-top-10\@desktop {
+    padding-top: 64px;
+  }
+
+  .g--padding-bottom-10\@desktop {
+    padding-bottom: 64px;
+  }
+}
+.g--padding-11 {
+  padding: 80px;
+}
+
+.g--padding-left-11 {
+  padding-left: 80px;
+}
+
+.g--padding-right-11 {
+  padding-right: 80px;
+}
+
+.g--padding-top-11 {
+  padding-top: 80px;
+}
+
+.g--padding-bottom-11 {
+  padding-bottom: 80px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-11\@movil {
+    padding: 80px;
+  }
+
+  .g--padding-left-11\@movil {
+    padding-left: 80px;
+  }
+
+  .g--padding-right-11\@movil {
+    padding-right: 80px;
+  }
+
+  .g--padding-top-11\@movil {
+    padding-top: 80px;
+  }
+
+  .g--padding-bottom-11\@movil {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-11\@tablet {
+    padding: 80px;
+  }
+
+  .g--padding-left-11\@tablet {
+    padding-left: 80px;
+  }
+
+  .g--padding-right-11\@tablet {
+    padding-right: 80px;
+  }
+
+  .g--padding-top-11\@tablet {
+    padding-top: 80px;
+  }
+
+  .g--padding-bottom-11\@tablet {
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-11\@desktop {
+    padding: 80px;
+  }
+
+  .g--padding-left-11\@desktop {
+    padding-left: 80px;
+  }
+
+  .g--padding-right-11\@desktop {
+    padding-right: 80px;
+  }
+
+  .g--padding-top-11\@desktop {
+    padding-top: 80px;
+  }
+
+  .g--padding-bottom-11\@desktop {
+    padding-bottom: 80px;
+  }
+}
+.g--padding-12 {
+  padding: 96px;
+}
+
+.g--padding-left-12 {
+  padding-left: 96px;
+}
+
+.g--padding-right-12 {
+  padding-right: 96px;
+}
+
+.g--padding-top-12 {
+  padding-top: 96px;
+}
+
+.g--padding-bottom-12 {
+  padding-bottom: 96px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-12\@movil {
+    padding: 96px;
+  }
+
+  .g--padding-left-12\@movil {
+    padding-left: 96px;
+  }
+
+  .g--padding-right-12\@movil {
+    padding-right: 96px;
+  }
+
+  .g--padding-top-12\@movil {
+    padding-top: 96px;
+  }
+
+  .g--padding-bottom-12\@movil {
+    padding-bottom: 96px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-12\@tablet {
+    padding: 96px;
+  }
+
+  .g--padding-left-12\@tablet {
+    padding-left: 96px;
+  }
+
+  .g--padding-right-12\@tablet {
+    padding-right: 96px;
+  }
+
+  .g--padding-top-12\@tablet {
+    padding-top: 96px;
+  }
+
+  .g--padding-bottom-12\@tablet {
+    padding-bottom: 96px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-12\@desktop {
+    padding: 96px;
+  }
+
+  .g--padding-left-12\@desktop {
+    padding-left: 96px;
+  }
+
+  .g--padding-right-12\@desktop {
+    padding-right: 96px;
+  }
+
+  .g--padding-top-12\@desktop {
+    padding-top: 96px;
+  }
+
+  .g--padding-bottom-12\@desktop {
+    padding-bottom: 96px;
+  }
+}
+.g--padding-13 {
+  padding: 128px;
+}
+
+.g--padding-left-13 {
+  padding-left: 128px;
+}
+
+.g--padding-right-13 {
+  padding-right: 128px;
+}
+
+.g--padding-top-13 {
+  padding-top: 128px;
+}
+
+.g--padding-bottom-13 {
+  padding-bottom: 128px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-13\@movil {
+    padding: 128px;
+  }
+
+  .g--padding-left-13\@movil {
+    padding-left: 128px;
+  }
+
+  .g--padding-right-13\@movil {
+    padding-right: 128px;
+  }
+
+  .g--padding-top-13\@movil {
+    padding-top: 128px;
+  }
+
+  .g--padding-bottom-13\@movil {
+    padding-bottom: 128px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-13\@tablet {
+    padding: 128px;
+  }
+
+  .g--padding-left-13\@tablet {
+    padding-left: 128px;
+  }
+
+  .g--padding-right-13\@tablet {
+    padding-right: 128px;
+  }
+
+  .g--padding-top-13\@tablet {
+    padding-top: 128px;
+  }
+
+  .g--padding-bottom-13\@tablet {
+    padding-bottom: 128px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-13\@desktop {
+    padding: 128px;
+  }
+
+  .g--padding-left-13\@desktop {
+    padding-left: 128px;
+  }
+
+  .g--padding-right-13\@desktop {
+    padding-right: 128px;
+  }
+
+  .g--padding-top-13\@desktop {
+    padding-top: 128px;
+  }
+
+  .g--padding-bottom-13\@desktop {
+    padding-bottom: 128px;
+  }
+}
+.g--padding-14 {
+  padding: 160px;
+}
+
+.g--padding-left-14 {
+  padding-left: 160px;
+}
+
+.g--padding-right-14 {
+  padding-right: 160px;
+}
+
+.g--padding-top-14 {
+  padding-top: 160px;
+}
+
+.g--padding-bottom-14 {
+  padding-bottom: 160px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-14\@movil {
+    padding: 160px;
+  }
+
+  .g--padding-left-14\@movil {
+    padding-left: 160px;
+  }
+
+  .g--padding-right-14\@movil {
+    padding-right: 160px;
+  }
+
+  .g--padding-top-14\@movil {
+    padding-top: 160px;
+  }
+
+  .g--padding-bottom-14\@movil {
+    padding-bottom: 160px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-14\@tablet {
+    padding: 160px;
+  }
+
+  .g--padding-left-14\@tablet {
+    padding-left: 160px;
+  }
+
+  .g--padding-right-14\@tablet {
+    padding-right: 160px;
+  }
+
+  .g--padding-top-14\@tablet {
+    padding-top: 160px;
+  }
+
+  .g--padding-bottom-14\@tablet {
+    padding-bottom: 160px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-14\@desktop {
+    padding: 160px;
+  }
+
+  .g--padding-left-14\@desktop {
+    padding-left: 160px;
+  }
+
+  .g--padding-right-14\@desktop {
+    padding-right: 160px;
+  }
+
+  .g--padding-top-14\@desktop {
+    padding-top: 160px;
+  }
+
+  .g--padding-bottom-14\@desktop {
+    padding-bottom: 160px;
+  }
+}
+.g--padding-15 {
+  padding: 192px;
+}
+
+.g--padding-left-15 {
+  padding-left: 192px;
+}
+
+.g--padding-right-15 {
+  padding-right: 192px;
+}
+
+.g--padding-top-15 {
+  padding-top: 192px;
+}
+
+.g--padding-bottom-15 {
+  padding-bottom: 192px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-15\@movil {
+    padding: 192px;
+  }
+
+  .g--padding-left-15\@movil {
+    padding-left: 192px;
+  }
+
+  .g--padding-right-15\@movil {
+    padding-right: 192px;
+  }
+
+  .g--padding-top-15\@movil {
+    padding-top: 192px;
+  }
+
+  .g--padding-bottom-15\@movil {
+    padding-bottom: 192px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-15\@tablet {
+    padding: 192px;
+  }
+
+  .g--padding-left-15\@tablet {
+    padding-left: 192px;
+  }
+
+  .g--padding-right-15\@tablet {
+    padding-right: 192px;
+  }
+
+  .g--padding-top-15\@tablet {
+    padding-top: 192px;
+  }
+
+  .g--padding-bottom-15\@tablet {
+    padding-bottom: 192px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-15\@desktop {
+    padding: 192px;
+  }
+
+  .g--padding-left-15\@desktop {
+    padding-left: 192px;
+  }
+
+  .g--padding-right-15\@desktop {
+    padding-right: 192px;
+  }
+
+  .g--padding-top-15\@desktop {
+    padding-top: 192px;
+  }
+
+  .g--padding-bottom-15\@desktop {
+    padding-bottom: 192px;
+  }
+}
+.g--padding-16 {
+  padding: 224px;
+}
+
+.g--padding-left-16 {
+  padding-left: 224px;
+}
+
+.g--padding-right-16 {
+  padding-right: 224px;
+}
+
+.g--padding-top-16 {
+  padding-top: 224px;
+}
+
+.g--padding-bottom-16 {
+  padding-bottom: 224px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-16\@movil {
+    padding: 224px;
+  }
+
+  .g--padding-left-16\@movil {
+    padding-left: 224px;
+  }
+
+  .g--padding-right-16\@movil {
+    padding-right: 224px;
+  }
+
+  .g--padding-top-16\@movil {
+    padding-top: 224px;
+  }
+
+  .g--padding-bottom-16\@movil {
+    padding-bottom: 224px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-16\@tablet {
+    padding: 224px;
+  }
+
+  .g--padding-left-16\@tablet {
+    padding-left: 224px;
+  }
+
+  .g--padding-right-16\@tablet {
+    padding-right: 224px;
+  }
+
+  .g--padding-top-16\@tablet {
+    padding-top: 224px;
+  }
+
+  .g--padding-bottom-16\@tablet {
+    padding-bottom: 224px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-16\@desktop {
+    padding: 224px;
+  }
+
+  .g--padding-left-16\@desktop {
+    padding-left: 224px;
+  }
+
+  .g--padding-right-16\@desktop {
+    padding-right: 224px;
+  }
+
+  .g--padding-top-16\@desktop {
+    padding-top: 224px;
+  }
+
+  .g--padding-bottom-16\@desktop {
+    padding-bottom: 224px;
+  }
+}
+.g--padding-17 {
+  padding: 256px;
+}
+
+.g--padding-left-17 {
+  padding-left: 256px;
+}
+
+.g--padding-right-17 {
+  padding-right: 256px;
+}
+
+.g--padding-top-17 {
+  padding-top: 256px;
+}
+
+.g--padding-bottom-17 {
+  padding-bottom: 256px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-17\@movil {
+    padding: 256px;
+  }
+
+  .g--padding-left-17\@movil {
+    padding-left: 256px;
+  }
+
+  .g--padding-right-17\@movil {
+    padding-right: 256px;
+  }
+
+  .g--padding-top-17\@movil {
+    padding-top: 256px;
+  }
+
+  .g--padding-bottom-17\@movil {
+    padding-bottom: 256px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-17\@tablet {
+    padding: 256px;
+  }
+
+  .g--padding-left-17\@tablet {
+    padding-left: 256px;
+  }
+
+  .g--padding-right-17\@tablet {
+    padding-right: 256px;
+  }
+
+  .g--padding-top-17\@tablet {
+    padding-top: 256px;
+  }
+
+  .g--padding-bottom-17\@tablet {
+    padding-bottom: 256px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-17\@desktop {
+    padding: 256px;
+  }
+
+  .g--padding-left-17\@desktop {
+    padding-left: 256px;
+  }
+
+  .g--padding-right-17\@desktop {
+    padding-right: 256px;
+  }
+
+  .g--padding-top-17\@desktop {
+    padding-top: 256px;
+  }
+
+  .g--padding-bottom-17\@desktop {
+    padding-bottom: 256px;
+  }
+}
+.g--padding-18 {
+  padding: 320px;
+}
+
+.g--padding-left-18 {
+  padding-left: 320px;
+}
+
+.g--padding-right-18 {
+  padding-right: 320px;
+}
+
+.g--padding-top-18 {
+  padding-top: 320px;
+}
+
+.g--padding-bottom-18 {
+  padding-bottom: 320px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-18\@movil {
+    padding: 320px;
+  }
+
+  .g--padding-left-18\@movil {
+    padding-left: 320px;
+  }
+
+  .g--padding-right-18\@movil {
+    padding-right: 320px;
+  }
+
+  .g--padding-top-18\@movil {
+    padding-top: 320px;
+  }
+
+  .g--padding-bottom-18\@movil {
+    padding-bottom: 320px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-18\@tablet {
+    padding: 320px;
+  }
+
+  .g--padding-left-18\@tablet {
+    padding-left: 320px;
+  }
+
+  .g--padding-right-18\@tablet {
+    padding-right: 320px;
+  }
+
+  .g--padding-top-18\@tablet {
+    padding-top: 320px;
+  }
+
+  .g--padding-bottom-18\@tablet {
+    padding-bottom: 320px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-18\@desktop {
+    padding: 320px;
+  }
+
+  .g--padding-left-18\@desktop {
+    padding-left: 320px;
+  }
+
+  .g--padding-right-18\@desktop {
+    padding-right: 320px;
+  }
+
+  .g--padding-top-18\@desktop {
+    padding-top: 320px;
+  }
+
+  .g--padding-bottom-18\@desktop {
+    padding-bottom: 320px;
+  }
+}
+.g--padding-19 {
+  padding: 480px;
+}
+
+.g--padding-left-19 {
+  padding-left: 480px;
+}
+
+.g--padding-right-19 {
+  padding-right: 480px;
+}
+
+.g--padding-top-19 {
+  padding-top: 480px;
+}
+
+.g--padding-bottom-19 {
+  padding-bottom: 480px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-19\@movil {
+    padding: 480px;
+  }
+
+  .g--padding-left-19\@movil {
+    padding-left: 480px;
+  }
+
+  .g--padding-right-19\@movil {
+    padding-right: 480px;
+  }
+
+  .g--padding-top-19\@movil {
+    padding-top: 480px;
+  }
+
+  .g--padding-bottom-19\@movil {
+    padding-bottom: 480px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-19\@tablet {
+    padding: 480px;
+  }
+
+  .g--padding-left-19\@tablet {
+    padding-left: 480px;
+  }
+
+  .g--padding-right-19\@tablet {
+    padding-right: 480px;
+  }
+
+  .g--padding-top-19\@tablet {
+    padding-top: 480px;
+  }
+
+  .g--padding-bottom-19\@tablet {
+    padding-bottom: 480px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-19\@desktop {
+    padding: 480px;
+  }
+
+  .g--padding-left-19\@desktop {
+    padding-left: 480px;
+  }
+
+  .g--padding-right-19\@desktop {
+    padding-right: 480px;
+  }
+
+  .g--padding-top-19\@desktop {
+    padding-top: 480px;
+  }
+
+  .g--padding-bottom-19\@desktop {
+    padding-bottom: 480px;
+  }
+}
+.g--padding-20 {
+  padding: 640px;
+}
+
+.g--padding-left-20 {
+  padding-left: 640px;
+}
+
+.g--padding-right-20 {
+  padding-right: 640px;
+}
+
+.g--padding-top-20 {
+  padding-top: 640px;
+}
+
+.g--padding-bottom-20 {
+  padding-bottom: 640px;
+}
+
+@media (min-width: 640px) {
+  .g--padding-20\@movil {
+    padding: 640px;
+  }
+
+  .g--padding-left-20\@movil {
+    padding-left: 640px;
+  }
+
+  .g--padding-right-20\@movil {
+    padding-right: 640px;
+  }
+
+  .g--padding-top-20\@movil {
+    padding-top: 640px;
+  }
+
+  .g--padding-bottom-20\@movil {
+    padding-bottom: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .g--padding-20\@tablet {
+    padding: 640px;
+  }
+
+  .g--padding-left-20\@tablet {
+    padding-left: 640px;
+  }
+
+  .g--padding-right-20\@tablet {
+    padding-right: 640px;
+  }
+
+  .g--padding-top-20\@tablet {
+    padding-top: 640px;
+  }
+
+  .g--padding-bottom-20\@tablet {
+    padding-bottom: 640px;
+  }
+}
+@media (min-width: 1024px) {
+  .g--padding-20\@desktop {
+    padding: 640px;
+  }
+
+  .g--padding-left-20\@desktop {
+    padding-left: 640px;
+  }
+
+  .g--padding-right-20\@desktop {
+    padding-right: 640px;
+  }
+
+  .g--padding-top-20\@desktop {
+    padding-top: 640px;
+  }
+
+  .g--padding-bottom-20\@desktop {
+    padding-bottom: 640px;
+  }
+}
+.g--title-XXS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 8px;
+}
+
+.g--title-XS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 12px;
+}
+
+.g--title-S {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 16px;
+}
+
+.g--title-M {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 20px;
+}
+
+.g--title-L {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 24px;
+}
+
+.g--title-XL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 32px;
+}
+
+.g--title-XXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 48px;
+}
+
+.g--title-XXXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 64px;
+}
+
+.g--pretitle-XXS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 8px;
+}
+
+.g--pretitle-XS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 12px;
+}
+
+.g--pretitle-S {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 16px;
+}
+
+.g--pretitle-M {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 20px;
+}
+
+.g--pretitle-L {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 24px;
+}
+
+.g--pretitle-XL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 32px;
+}
+
+.g--pretitle-XXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 48px;
+}
+
+.g--pretitle-XXXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 64px;
+}
+
+.g--subtitle-XXS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 8px;
+}
+
+.g--subtitle-XS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 12px;
+}
+
+.g--subtitle-S {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 16px;
+}
+
+.g--subtitle-M {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 20px;
+}
+
+.g--subtitle-L {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 24px;
+}
+
+.g--subtitle-XL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 32px;
+}
+
+.g--subtitle-XXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 48px;
+}
+
+.g--subtitle-XXXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 64px;
+}
+
+.g--text-XXS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 8px;
+}
+
+.g--text-XS {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 12px;
+}
+
+.g--text-S {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 16px;
+}
+
+.g--text-M {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 20px;
+}
+
+.g--text-L {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 24px;
+}
+
+.g--text-XL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 32px;
+}
+
+.g--text-XXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 48px;
+}
+
+.g--text-XXXL {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" ;
+  font-size: 64px;
+}

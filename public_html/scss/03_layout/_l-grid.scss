@@ -1,0 +1,12 @@
+.l-2-columnas {
+    display: grid;
+    justify-items: center;
+    margin-top:30px;
+    grid-template-areas: "lateral-izquierdo lateral-derecho";
+    &__lateral-izquierdo{       
+        grid-area: lateral-izquierdo;
+    }
+    &__lateral-derecho{
+        grid-area: lateral-derecho;
+    }
+}

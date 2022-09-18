@@ -1,0 +1,48 @@
+@each $key, $value in $padding-variants {
+    
+    .g--padding-#{$key} {
+        padding: $value;
+    }
+    
+    .g--padding-left-#{$key} {
+        padding-left: $value;
+    }
+
+    .g--padding-right-#{$key} {
+        padding-right: $value;
+    }  
+    
+    .g--padding-top-#{$key} {
+        padding-top: $value;
+    }
+    
+    .g--padding-bottom-#{$key} {
+        padding-bottom: $value;
+    } 
+    
+    @each $break-name, $break-px in $breaks {
+        
+        @media (min-width: #{$break-px}) {
+            .g--padding-#{$key}\@#{$break-name} {
+                padding: $value;
+            }
+
+            .g--padding-left-#{$key}\@#{$break-name} {
+                padding-left: $value;
+            }
+
+            .g--padding-right-#{$key}\@#{$break-name} {
+                padding-right: $value;
+            }  
+
+            .g--padding-top-#{$key}\@#{$break-name} {
+                padding-top: $value;
+            }
+
+            .g--padding-bottom-#{$key}\@#{$break-name} {
+                padding-bottom: $value;
+            } 
+        }
+    }    
+    
+}
