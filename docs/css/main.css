@@ -580,7 +580,7 @@ li {
   width: 100%;
   background-position: center center;
   background-size: cover;
-  background-image: url("./assets/img/portada.jpg");
+  background-image: url("../assets/img/portada.jpg");
   position: relative;
   z-index: 1;
 }
